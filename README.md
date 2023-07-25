@@ -18,3 +18,13 @@ Here's an example of UART communication between two Arduino boards:
 Project details on:
 https://www.tinkercad.com/things/0SYVH7ibyho?sharecode=VGLsjrFgx8dsUceHDcU_-MbmvVp1N7TFqOqT6o2of5k
 
+The Inter-Integrated Circuit (I2C) is a communication protocol that employs a two-wire interface. It was initially developed by Philips, which is now known as NXP. The system utilises a master-slave architectural model that facilitates the connection of multiple devices on a single bus. The I2C communication protocol employs two distinct wires, the Serial Data Line (SDA) and the Serial Clock Line (SCL).
+
+The acronym SDA is commonly employed to denote the data transfer process between various electronic devices.
+
+The SCL signal serves as a means of synchronising data transfer by providing a clock signal.
+
+The I2C communication protocol involves the master device generating the clock signal and initiating communication with the slave devices. Every individual slave device is assigned a different address, which the master utilises to establish contact with a particular slave.
+
+Here is an example of I2C communication between two Arduino boards (Master and Slave):
+
