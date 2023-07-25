@@ -9,6 +9,12 @@ Information is conveyed through packets that consist of start bits, data bits, a
 Here's an example of UART communication between two Arduino boards:
 ![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/912a54f8-044e-4f69-90ab-19f5ddb47e56)
 
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/122dbb67-7b15-48e6-a270-8515a593b2a9)
 
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/8c108f61-fc41-498f-a686-b6cf01a45773)
 
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/cbe0f751-c86b-461e-b555-80e1f2a3ec64)
 
+Project details on:
+https://www.tinkercad.com/things/0SYVH7ibyho?sharecode=VGLsjrFgx8dsUceHDcU_-MbmvVp1N7TFqOqT6o2of5k
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/2e5b9ba3-a725-48b5-b4db-5baff235fb0f)
