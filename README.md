@@ -6,6 +6,8 @@ The Universal Asynchronous Receiver/Transmitter (UART) is a serial communication
 In the context of UART communication, it is customary for each device to be equipped with a transmit (TX) pin and a receive (RX) pin. Therefore, to facilitate communication, it is necessary to connect the transmitting device's TX pin to the receiving device's RX pin and vice versa.
 
 Information is conveyed through packets that consist of start bits, data bits, and stop bits. Parity bits may also be included to detect errors, although this is not mandatory.
+Here's an example of UART communication between two Arduino boards:
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/912a54f8-044e-4f69-90ab-19f5ddb47e56)
 
 
 
