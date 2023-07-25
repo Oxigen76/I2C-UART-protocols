@@ -28,3 +28,19 @@ The I2C communication protocol involves the master device generating the clock s
 
 Here is an example of I2C communication between two Arduino boards (Master and Slave):
 
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/6003de50-782c-4363-bba3-69412d289d3f)
+
+
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/5d1aa693-32ea-4ad0-9de8-b8ef1dcded20)
+
+
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/684758a1-a019-47f1-846c-ecb9b449c16d)
+
+
+![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/dbfea09b-e98b-4b29-8cd4-ee9f62837712)
+
+
+Project details on:
+https://www.tinkercad.com/things/4xyzTreuhsK?sharecode=K8drE-MWxtyw4O5W9lw4cTQUytDAVHl3fYUJv4_EDWg
+
+
