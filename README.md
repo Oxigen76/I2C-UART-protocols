@@ -17,4 +17,4 @@ Here's an example of UART communication between two Arduino boards:
 
 Project details on:
 https://www.tinkercad.com/things/0SYVH7ibyho?sharecode=VGLsjrFgx8dsUceHDcU_-MbmvVp1N7TFqOqT6o2of5k
-![image](https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/2e5b9ba3-a725-48b5-b4db-5baff235fb0f)
+
