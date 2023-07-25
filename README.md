@@ -9,30 +9,55 @@ UART is a serial communication protocol that employs a pair of wires, namely Tra
 Here's an example of UART communication between two Arduino boards:
 
 <p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/912a54f8-044e-4f69-90ab-19f5ddb47e56" alt="UART Example 1" width="70%">
+    <img width="675" alt="Screenshot 2023-07-25 at 23 06 13" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/da392e71-fd47-43a7-9423-1331d8d379b8">
     <br>
-    <em>Figure 1: UART Example 1</em>
+    <em>Figure 1: UART Components</em>
+</p>
+
+
+<p align="center">
+    <img width="675" alt="Screenshot 2023-07-25 at 23 06 39" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/338eb3ff-0a1e-40f7-a4e2-797dfba95abf">
+    <br>
+    <em>Figure 2: UART Schematic View</em>
 </p>
 
 <p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/122dbb67-7b15-48e6-a270-8515a593b2a9" alt="UART Example 2" width="100%">
+    <img width="1338" alt="Screenshot 2023-07-25 at 23 05 34" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/954d2e99-c16a-4d2d-8a41-2efc07f184cb">
     <br>
     <em>Figure 2: UART Example 2</em>
 </p>
 
-<p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/8c108f61-fc41-498f-a686-b6cf01a45773" alt="UART Example 3" width="117%">
-    <br>
-    <em>Figure 3: UART Example 3</em>
-</p>
+Here is an example code for a simple UART communication:
 
-<p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/cbe0f751-c86b-461e-b555-80e1f2a3ec64" alt="UART Example 4" width="127%">
-    <br>
-    <em>Figure 4: UART Example 4</em>
-</p>
+```cpp
+const int ledPin = 13;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  
+  Serial.begin(9600); // Initialize the Serial communication at 9600 baud rate
+}
+
+void loop() {
+  if (Serial.available() > 0) {
+    String receivedMessage = Serial.readStringUntil('\n'); // Read the received string from the master
+    receivedMessage.trim(); // Remove any leading or trailing white spaces, including newline characters
+    
+    if (receivedMessage == "Pressed") { // Button is pressed
+      digitalWrite(ledPin, HIGH); // Turn on the LED
+    } else if (receivedMessage == "Released") { // Button is released
+      digitalWrite(ledPin, LOW); // Turn off the LED
+    }
+  }
+}
+``` 
+
 
 Complete project details can be found on Tinkercad [here](https://www.tinkercad.com/things/0SYVH7ibyho?sharecode=VGLsjrFgx8dsUceHDcU_-MbmvVp1N7TFqOqT6o2of5k).
+
+
+
+
 
 ## Inter-Integrated Circuit (I2C)
 
