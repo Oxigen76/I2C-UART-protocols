@@ -24,7 +24,7 @@ Here's an example of UART communication between two Arduino boards:
 <p align="center">
     <img width="1338" alt="Screenshot 2023-07-25 at 23 05 34" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/954d2e99-c16a-4d2d-8a41-2efc07f184cb">
     <br>
-    <em>Figure 2: UART Example 2</em>
+    <em>Figure 3: UART Example </em>
 </p>
 
 Here is an example code for a simple UART communication:
@@ -68,19 +68,19 @@ Here's an example of I2C communication between two Arduino boards (Master and Sl
 <p align="center">
     <img width="673" alt="Screenshot 2023-07-26 at 06 52 44" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/565b017e-207a-47f0-8443-62dca98e2595">
     <br>
-    <em>Figure 5: I2C Example 1</em>
+    <em>Figure 4: I2C Components</em>
 </p>
 
 <p align="center">
     <img width="673" alt="Screenshot 2023-07-26 at 06 53 00" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/13659f40-f29e-4ad1-a12f-d1ee3671829c">
     <br>
-    <em>Figure 6: I2C Example 2</em>
+    <em>Figure 5: I2C Shematic View</em>
 </p>
 
 <p align="center">
     <img width="1237" alt="Screenshot 2023-07-26 at 06 52 15" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/404a0d1a-3a01-4154-aaf0-3c69fa46a81b">
     <br>
-    <em>Figure 7: I2C Example 3</em>
+    <em>Figure 6: I2C Example</em>
 </p>
 
 Here's an example of I2C communication between two Arduino boards:
