@@ -10,20 +10,20 @@ UART is a serial communication protocol that employs a pair of wires, namely Tra
 Here's an example of UART communication between two Arduino boards:
 
 <p align="center">
-    <img width="675" alt="Screenshot 2023-07-25 at 23 06 13" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/da392e71-fd47-43a7-9423-1331d8d379b8">
+    <img width="675" alt="Screenshot 2023-07-25 at 23 06 13" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/1d04ba6e-f8a4-4d8d-a0e6-06cc580b53dd">
     <br>
     <em>Figure 1: UART Components</em>
 </p>
 
 
 <p align="center">
-    <img width="675" alt="Screenshot 2023-07-25 at 23 06 39" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/338eb3ff-0a1e-40f7-a4e2-797dfba95abf">
+    <img width="675" alt="Screenshot 2023-07-25 at 23 06 39" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/b6ddf485-4fce-4a8b-95b5-b84cc5b8562d">
     <br>
     <em>Figure 2: UART Schematic View</em>
 </p>
 
 <p align="center">
-    <img width="1338" alt="Screenshot 2023-07-25 at 23 05 34" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/954d2e99-c16a-4d2d-8a41-2efc07f184cb">
+    <img width="1338" alt="Screenshot 2023-07-25 at 23 05 34" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/6c7d1155-7b3f-4e20-bfa8-1db470b6c09c">
     <br>
     <em>Figure 3: UART Example </em>
 </p>
@@ -67,19 +67,19 @@ I2C is a communication protocol that employs a two-wire interface. Initially dev
 Here's an example of I2C communication between two Arduino boards (Master and Slave):
 
 <p align="center">
-    <img width="673" alt="Screenshot 2023-07-26 at 06 52 44" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/565b017e-207a-47f0-8443-62dca98e2595">
+    <img width="673" alt="Screenshot 2023-07-26 at 06 52 44" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/3c40c054-b5a3-4cd5-9e87-2ddd5ed55d10">
     <br>
     <em>Figure 4: I2C Components</em>
 </p>
 
 <p align="center">
-    <img width="673" alt="Screenshot 2023-07-26 at 06 53 00" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/13659f40-f29e-4ad1-a12f-d1ee3671829c">
+    <img width="673" alt="Screenshot 2023-07-26 at 06 53 00" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/e3cbdcbc-33fd-4e3f-926e-3615aee37b44">
     <br>
-    <em>Figure 5: I2C Shematic View</em>
+    <em>Figure 5: I2C Schematic View</em>
 </p>
 
 <p align="center">
-    <img width="1237" alt="Screenshot 2023-07-26 at 06 52 15" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/404a0d1a-3a01-4154-aaf0-3c69fa46a81b">
+    <img width="1237" alt="Screenshot 2023-07-26 at 06 52 15" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/d7caff32-91a1-4f7c-ac2b-dc90937353c1">
     <br>
     <em>Figure 6: I2C Example</em>
 </p>
