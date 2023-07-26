@@ -4,6 +4,7 @@ I2C and UART are two communication protocols utilised in microcontrollers and el
 
 ## Universal Asynchronous Receiver/Transmitter (UART)
 
+
 UART is a serial communication protocol that employs a pair of wires, namely Transmit (TX) and Receive (RX). Asynchronous communication is characterised by the absence of a clock signal to synchronise data transfer. In the context of UART communication, each device has a transmit (TX) pin and a receive (RX) pin. To facilitate communication, connect the transmitting device's TX pin to the receiving device's RX pin and vice versa. Information is conveyed through packets that consist of start bits, data bits, and stop bits. Parity bits may also be included to detect errors, although this is not mandatory.
 
 Here's an example of UART communication between two Arduino boards:
