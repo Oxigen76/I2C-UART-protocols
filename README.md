@@ -66,27 +66,51 @@ I2C is a communication protocol that employs a two-wire interface. Initially dev
 Here's an example of I2C communication between two Arduino boards (Master and Slave):
 
 <p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/6003de50-782c-4363-bba3-69412d289d3f" alt="I2C Example 1" width="127%">
+    <img width="673" alt="Screenshot 2023-07-26 at 06 52 44" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/565b017e-207a-47f0-8443-62dca98e2595">
     <br>
     <em>Figure 5: I2C Example 1</em>
 </p>
 
 <p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/5d1aa693-32ea-4ad0-9de8-b8ef1dcded20" alt="I2C Example 2" width="127%">
+    <img width="673" alt="Screenshot 2023-07-26 at 06 53 00" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/13659f40-f29e-4ad1-a12f-d1ee3671829c">
     <br>
     <em>Figure 6: I2C Example 2</em>
 </p>
 
 <p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/684758a1-a019-47f1-846c-ecb9b449c16d" alt="I2C Example 3" width="127%">
+    <img width="1237" alt="Screenshot 2023-07-26 at 06 52 15" src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/404a0d1a-3a01-4154-aaf0-3c69fa46a81b">
     <br>
     <em>Figure 7: I2C Example 3</em>
 </p>
 
-<p align="center">
-    <img src="https://github.com/Oxigen76/I2C-UART-protocols/assets/76484497/dbfea09b-e98b-4b29-8cd4-ee9f62837712" alt="I2C Example 4" width="127%">
-    <br>
-    <em>Figure 8: I2C Example 4</em>
-</p>
+Here's an example of I2C communication between two Arduino boards:
+
+```cpp
+
+#include <Wire.h>
+
+const int ledPin = 13;
+int buttonState = 0;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  Wire.begin(8); // Join the I2C bus as a slave with address 8
+  Wire.onReceive(receiveEvent); // Attach an event to be called when data is received
+}
+
+void loop() {
+  // The loop function is empty since the communication is handled by the receiveEvent function
+}
+
+void receiveEvent(int bytes) {
+  buttonState = Wire.read(); // Read the button state from the master
+
+  if (buttonState == LOW) { // Button press now reads LOW due to the pull-up resistor
+    digitalWrite(ledPin, HIGH); // Turn on the LED
+  } else {
+    digitalWrite(ledPin, LOW); // Turn off the LED
+  }
+}
+``` 
 
 Complete project details can be found on Tinkercad [here](https://www.tinkercad.com/things/4xyzTreuhsK?sharecode=K8drE-MWxtyw4O5W9lw4cTQUytDAVHl3fYUJv4_EDWg).
